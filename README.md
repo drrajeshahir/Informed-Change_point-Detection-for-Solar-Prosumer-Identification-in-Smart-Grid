@@ -1,1 +1,9 @@
 # Informed-Change_point-Detection-for-Solar-Prosumer-Identification-in-Smart-Grid
+
+The main purpose of this work is to identify and statistically verify the solar PV consumer using smart meter data. The implmentation includes python script for data creation for solar PV customers, k-NN and DTW for detection, and kolmogorov-smirnov statistical test for verification of the identified solar PV customers. 
+
+The complete details about the work can be found at https://ieeexplore.ieee.org/abstract/document/10111064
+
+**Abstract:**
+
+Detecting smart grid customers with solar Photovoltaic (PV) installations is a challenging task owing to the variability of consumption patterns. To address this problem, we attempt to detect the statistical change point in consumption pattern caused by PV installation by a consumer. Our paper proposes a novel pattern-based and context-aware approach to detect the customers with unauthorised solar PV installations in the smart grid. In this unsupervised learning process, a combination of dynamic time warping (DTW) and k-nearest neighbors (k-NN) technique is proposed. DTW is utilized to capture the relationship between two consumption patterns, and k-NN is employed to infer consumers having similar consumption patterns. Gaussian scaling technique is incorporated to convert k-NN distances into Change-Point (CP) scores to provide an accurate description of customers with PV installations. The CP-score profile for each customer is generated to exhibit the changes that occurred in the consumption patterns. Finally, the existence of the PV systems is verified using Kolmogorov-Smirnov (K-S) statistical test. The proposed solution for unauthorised solar prosumer detection and verification provides the overall F1-score of 97%, the False-Positive Rate as 1.1%, and the False-Negative Rate as 2.0%, which demonstrates the higher efficacy of detection rate compared to the previous contribution.
